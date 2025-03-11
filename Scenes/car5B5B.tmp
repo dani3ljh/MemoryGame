@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://bynsu3inlujlq"]
+
+[ext_resource type="Texture2D" uid="uid://bv7uy7i31txv8" path="res://icon.svg" id="1_4wyfc"]
+[ext_resource type="Script" path="res://Scenes/card.gd" id="2_l1tp7"]
+
+[node name="Card" type="Sprite3D"]
+transform = Transform3D(-0.0809541, -3.09356e-16, 7.07723e-09, -7.07723e-09, 3.53862e-09, -0.0809541, -1.71427e-23, -0.0809541, -3.53862e-09, 0, 0, 0)
+texture = ExtResource("1_4wyfc")
+script = ExtResource("2_l1tp7")

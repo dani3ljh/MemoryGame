@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://4h8rrm0b6jra"]
+
+[ext_resource type="PackedScene" uid="uid://bynsu3inlujlq" path="res://Scenes/card.tscn" id="1_ds20d"]
+
+[node name="Game" type="Node3D"]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(-1, -9.31764e-22, 8.74228e-08, 0, 1, 1.06581e-14, -8.74228e-08, 1.06581e-14, -1, 0, 0, -0.549779)
+projection = 1
+
+[node name="Card" parent="." instance=ExtResource("1_ds20d")]
